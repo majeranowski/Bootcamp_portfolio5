@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(249, 249, 249);
+}
+header {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+/*Navigation bar styling*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(247, 247, 247);
+    width: fit-content;
+  }
+  
+  li {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    border-radius: 10%;
+    }
+h3,h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+article {
+    text-align: justify;
+    text-rendering: optimizeLegibility;
+}
+p {
+    padding: 2%;
+    color: rgb(48, 46, 46);
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.quote {
+    border: 1px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    color: antiquewhite;
+    margin-bottom: 3%;
+}
+
+.quote1 {
+    font-style: italic;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(78, 73, 67);
+    padding: 0;
+}
+.author {
+    text-align: center;
+    color: rgb(53, 70, 70);
+    margin-top: 1%;
+    font-family: monospace;
+}
+
+/*Tables with ingredients*/
+
+th, td {
+    padding: 7px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+  }
+
+/*recipes*/
+.instruction {
+    display: block;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+/* styling a form*/
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.news_question {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+  input[type=text] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #596863;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    margin: 2px;
+    cursor: pointer;
+}
+input[type=radio] {
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+footer {
+    width: fit-content;
+    background-color: aliceblue;
+}
+.footer {
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#like {
+    background-color: rgb(116, 140, 136);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+#like1 {
+    background-color: rgb(116, 140, 136);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #596863;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    margin: 2px;
+    cursor: pointer;
+}

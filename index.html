@@ -1,0 +1,65 @@
+<!--The website does the instructoin from the task
+Within the entirety of your site, you should have the following JavaScript
+functionality:
+○ Create a functional “Save for later” page for your website, where users
+can earmark articles, images, recipes, etc. in a personal folder to be
+able to go back and see them later.
+○ Each item/recipe/image, etc. must have the option to “Save for later”.
+○ When an item is added, an alert should tell the user how many items
+are in their “Save for later” folder.
+○ Create a new HTML page for the “Save for later” section, which allows
+the user to see what is in their folder.
+○ Create a form which allows a user to leave comments.
+○ Create forms to allow a user to “like” an item/article/etc.
+○ Create forms for if a person would like to contact you.
+
+I had a problem with displaying the photos on another website and it is the only bogus on the webpage-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="images/myStyle.css">
+    
+    <title>Baking Paradise</title>
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+            <li class="navbar"><a href="index.html">Home Page</a></li>
+            <li class="navbar"><a href="recipes.html">Recipes</a></li>
+            <li class="navbar"><a href="contact.html">Contact</a></li>
+            <li class="navbar"><a href="saveforlater.html" target="_blank">Save For Later</a></li>
+        </ul>
+    </nav>
+    <header class="top">
+        <h1>Baking Paradise</h1>
+        <img id="main-photo" src="images/logo.jpeg" alt="baking paradise">
+        <button onclick="save()"> Save for later</button>
+    </header>
+    <main>
+        <section class="about-me">
+            <h3>Who am I?</h3>
+            <article class="introduction">
+                <p id="main-article"><b>Who am I?</b> It does not really matter. I could be your neighbour, boss or a lady from local grocery store<br>
+                Why are you here?, is the better question. And you are here because you want to check some awesome baking recipes. <br>
+                This website is the best place to do it. You can find here easy baking recipes and also leave your details if you would <br>
+                like to recive more of them in the future. I hope you will enjoy it.</p>
+            </article>
+            <button onclick="save2()"> Save for later</button>
+        </section>
+    </main>
+    <section class="quote">
+        <p class="quote1">“I love to try out new recipes before the holidays. That way if the cookbook has it wrong, I can fix it.”</p>
+        <p class="author">Bree Van De Kamp</p>
+    </section>
+    <input type="text" id="comment" placeholder="Enter comment">
+    <button id="submit">Submit</button>
+    <ul id="comments"></ul>
+    <footer>
+        <p class="footer">All the recipes comes from <a target="_blank" href="https://rozkoszny.pl">Rozkoszny</a> and <a target="_blank" href="https://www.simplyrecipes.com">Simply Recipes</a> websites</p>
+    </footer>
+    <script type="text/javascript"  src="index.js"></script>    
+</body>
+</html>
